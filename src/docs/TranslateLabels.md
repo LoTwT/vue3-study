@@ -1,7 +1,13 @@
 # 翻译 vue3 issue/PR 的标签
 
 [vue3 issue](https://github.com/vuejs/vue-next/issues)
+
 [vue3 issue/PR labels](https://github.com/vuejs/vue-next/labels)
+
+1. 标签只能用作查找 issue 的初筛
+1. 有从未使用过的标签，也有表义类似的标签
+1. issue 或 PR 可同时贴上多个标签代表当前进度
+1. 标签应该会随 vue 的迭代同步更新 (当前截至 2021/12/9)
 
 ## bug 相关
 
@@ -42,22 +48,22 @@
 
 | 标签名                 | 标签译名           | 注释                                             |
 | ---------------------- | ------------------ | ------------------------------------------------ |
+| security               | 安全               | 用于解决安全漏洞的 PR                            |
 | browser specific       | 特定浏览器         |                                                  |
-| comment or text update | 注释或文本的更新   | 这个 PR 只修改了注释或文本文件，没有修改逻辑代码 |
 | dependencies           | 依赖项             | 这个 PR 更新依赖项文件                           |
 | duplicate              | 重复项             | 这个 issue 或 PR 已经存在                        |
-| good first issue       | 优秀的第一个 issue | 给新朋友的褒奖                                   |
+| 🛑 on hold             | (PR) 处于搁置状态  | 这个 PR 需要等待其他工作完成后，才能被合并       |
+| comment or text update | 注释或文本的更新   | 这个 PR 只修改了注释或文本文件，没有修改逻辑代码 |
 | has PR                 | (issue) 有 PR      | 已经有一个提交的 PR 来解决这个 issue             |
 | has workaround         | (issue) 有应变方法 | 发现了一个防止这个 issue 发生的应变方法          |
 | help wanted            | 需要帮助           | 需要特别关注                                     |
-| invalid                | 无效的             | 这似乎不对                                       |
 | need guidance          | 需要指导           | PR 中的解决方法需要来自维护者的指导来继续推进    |
 | need more info         | 需要更多信息       | 需要更深入的信息                                 |
 | need test              | 需要测试           | 这个 PR 缺少测试用例                             |
-| 🛑 on hold             | (PR) 处于搁置状态  | 这个 PR 需要等待其他工作完成后，才能被合并       |
+| 🔍 review needed       | 🔍 需要审查        | 这个 PR 需要一位团队成员进行审查                 |
 | planned: 3.2           | 计划版本: 3.2      |                                                  |
 | ready to merge         | 准备合并           | 这个 PR 将被合并                                 |
-| 🔍 review needed       | 🔍 需要审查        | 这个 PR 需要一位团队成员进行审查                 |
-| security               | 安全               | 用于解决安全漏洞的 PR                            |
+| good first issue       | 优秀的第一个 issue | 给新朋友的褒奖                                   |
 | sfc-playground         | 单文件组件游乐场   |                                                  |
+| invalid                | 无效的             | 这似乎不对                                       |
 | wontfix                | 不予修复           | 这个 issue 不会被修复                            |
